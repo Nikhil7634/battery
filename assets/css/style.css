@@ -4071,3 +4071,17 @@ select:focus {
   top: 50%;
   transform: translateY(-50%);
 }
+@media(max-width: 540px){
+  .title{
+    text-align: center !important;
+  }
+  .content{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content p{
+    text-align: center;
+  }
+}
